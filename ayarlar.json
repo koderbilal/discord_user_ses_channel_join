@@ -1,0 +1,8 @@
+{
+    "botTOKEN": [
+        "token1",
+        "token2"
+    ],
+    "guild_id": "sunucu id",
+    "channel_id": "kanal id"
+}

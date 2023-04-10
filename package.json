@@ -1,0 +1,23 @@
+{
+  "name": "discord_user_ses_channel_join",
+  "version": "1.0.0",
+  "description": "discord user hesap ses kanalına girmesi, birden fazla token destekliyor.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koderbilal/discord_user_ses_channel_join.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koderbilal/discord_user_ses_channel_join/issues"
+  },
+  "homepage": "https://github.com/koderbilal/discord_user_ses_channel_join#readme",
+  "dependencies": {
+    "ws": "^8.13.0"
+  }
+}
