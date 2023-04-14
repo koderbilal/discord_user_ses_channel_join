@@ -14,6 +14,7 @@ const voiceChannelId = swanex.channel_id;
 const token = swanex.botTOKEN[index];
 
 ws.on("open", function open() {
+  console.log('başarılı bir şekilde aktif oldu.');
   const payload = {
     op: 2,
     d: {
@@ -35,7 +36,7 @@ ws.on("message", function incoming(data) {
   if (payload.op === 10) {
     const { heartbeat_interval } = payload.d;
     const heartbeat = () => {
-      ws.send(JSON.stringify({ op: 1, d: lastHeartbeatAck }));
+      ws.send(JSON.stringify({ op: 1, d: `${payload.s == null ? "null" : payload.s.reverse().split("")[0]}` }));
     };
 
     setInterval(() => {
