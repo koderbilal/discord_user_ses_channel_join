@@ -55,6 +55,11 @@ ws.on("message", function incoming(data) {
       })
     );
   }
+   if (payload.t === "READY") {
+    //console.log(payload)
+    const { username } = payload.d.user;
+    console.log(`[${index}] Kullanıcı Adı: ${username} giriş yaptı`);
+  }
 
   if (payload.t === "VOICE_STATE_UPDATE") {
     const { session_id } = payload.d;
