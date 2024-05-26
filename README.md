@@ -9,3 +9,5 @@ lütfen ayarlar.json dosyasını doldurun.
 ## değişim günlüğü
 
 consol tarafında kullanıcı adlarının gözükmesi eklendi, artık hangi hesapların giriş yaptığını görebileceksiniz.
+
+v2 sürümü ile sesten düşme sorunları minimize edildi.
